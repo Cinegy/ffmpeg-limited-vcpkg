@@ -4,7 +4,7 @@ This repository contains build script and patch files to automate build of FFmpe
 
 # Prerequisites
 
-You should install Git command line client and Visual Studio 2019.
+You should install Git command line client and Visual Studio 2019. It is also desirable but not needed to have 7-Zip installed and in the PATH.
 
 # Instructions
 

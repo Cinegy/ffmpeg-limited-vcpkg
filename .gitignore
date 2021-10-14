@@ -1,3 +1,5 @@
 #
 vcpkg/
 .vscode/
+#
+/ffmpeg-*.7z
