@@ -1,0 +1,13 @@
+diff --git a/ports/ffmpeg/portfile.cmake b/ports/ffmpeg/portfile.cmake
+index d4451b402..69b4abf0c 100644
+--- a/ports/ffmpeg/portfile.cmake
++++ b/ports/ffmpeg/portfile.cmake
+@@ -544,6 +544,8 @@ else()
+     set(OPTIONS "${OPTIONS} --disable-zlib")
+ endif()
+ 
++set(OPTIONS "${OPTIONS} --disable-bsfs --disable-decoders --disable-encoders --enable-encoder=ac3 --disable-hwaccels --disable-parsers")
++
+ vcpkg_cmake_get_vars(cmake_vars_file)
+ include("${cmake_vars_file}")
+ 
